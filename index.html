@@ -3,10 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Yatra Buddy - Offline Pilgrimage & Trek Companion</title>
-    <meta name="description" content="Offline-first pilgrimage companion with on-device knowledge base, audio trail guides, community updates, and mountain SOS safety toolkit." />
-    <meta property="og:title" content="Yatra Buddy - Offline Pilgrimage & Trek Companion" />
-    <meta property="og:description" content="Offline-first pilgrimage companion with on-device knowledge base, audio trail guides, community updates, and mountain SOS safety toolkit." />
+    <script>
+      // Fix: Ensure window.fetch has both a getter and a setter so development environment proxies or injected inspection wrappers do not throw "Cannot set property fetch of #<Window> which has only a getter"
+      (function() {
+        try {
+          var nativeFetch = window.fetch;
+          var currentFetch = nativeFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(newFetch) {
+              currentFetch = newFetch;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (err) {
+          // Graceful fallback if environment completely locks down window
+        }
+      })();
+    </script>
+    <title>Yatra Buddy - Offline Travel Companion for India</title>
+    <meta name="description" content="Offline-first travel companion for foreign visitors to India with on-device AI buddy, scam shield, multilingual phrasebook, and 24/7 embassy SOS." />
+    <meta property="og:title" content="Yatra Buddy - Offline Travel Companion for India" />
+    <meta property="og:description" content="Offline-first travel companion for foreign visitors to India with on-device AI buddy, scam shield, multilingual phrasebook, and 24/7 embassy SOS." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,4 +39,3 @@
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
