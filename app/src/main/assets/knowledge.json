@@ -1,0 +1,74 @@
+[
+  {
+    "id": "closed-hotel-scam",
+    "category": "scams",
+    "title": "Taxi Driver Claims Hotel is Closed, Burned, or in a Riot Zone",
+    "keywords": ["hotel", "closed", "burned", "fire", "riot", "driver", "taxi", "cab", "paharaganj", "delhi", "alternative", "shift", "cancelled"],
+    "answer": "This is one of the most common scams in Delhi, Mumbai, and Agra. The driver wants a massive commission from an overpriced budget hotel. Never believe a driver who says your hotel is closed, demolished, or inaccessible due to a festival. Insist firmly: 'Please take me to my hotel address anyway.' Call your hotel's official phone number directly. If the driver refuses, demand to be dropped at the nearest police station or metro station.",
+    "sourceLabel": "Ministry of Tourism & Delhi Police Travel Advisory",
+    "sourceUrl": "https://tourism.gov.in"
+  },
+  {
+    "id": "auto-rickshaw-meter",
+    "category": "transport",
+    "title": "Auto-Rickshaw Fare & Meter Refusal",
+    "keywords": ["auto", "rickshaw", "tuk", "tuk-tuk", "meter", "fare", "price", "bargain", "charge", "overcharging", "ola", "uber"],
+    "answer": "In most Indian cities (Delhi, Mumbai, Bengaluru), auto drivers are legally required to use the electronic meter. If a driver refuses and quotes 3x the normal rate, say: 'Meter se chaliye' (Please go by meter). Alternatively, use app-based booking like Uber, Ola, or Rapido where the fare is fixed and tracked by GPS. Pre-paid taxi/auto booths at airports and major railway stations are safe and regulated.",
+    "sourceLabel": "Delhi Transport Department Meter Regulations",
+    "sourceUrl": "https://transport.delhi.gov.in"
+  },
+  {
+    "id": "evisa-rules-arrival",
+    "category": "visa",
+    "title": "Indian e-Visa Arrival Checklist & Permitted Ports",
+    "keywords": ["visa", "evisa", "e-visa", "immigration", "arrival", "biometrics", "stamp", "port", "entry", "passport", "validity", "ticket"],
+    "answer": "Foreign tourists must carry a physical printed copy of the electronic Travel Authorization (ETA) confirmation email. Your passport must have at least 6 months validity from the date of arrival and at least 2 blank pages. e-Visa is valid for entry at 31 designated international airports (Delhi, Mumbai, Chennai, Kolkata, Bengaluru, Goa, etc.) and 5 designated seaports. Biometrics (fingerprints and photo) will be captured at immigration.",
+    "sourceLabel": "Bureau of Immigration Official e-Visa Portal",
+    "sourceUrl": "https://indianvisaonline.gov.in"
+  },
+  {
+    "id": "frro-registration-rules",
+    "category": "visa",
+    "title": "FRRO Registration: When is it Mandatory?",
+    "keywords": ["frro", "fro", "registration", "180 days", "stay", "overstay", "foreigners", "regional", "police", "c-form"],
+    "answer": "Foreign tourists holding an e-Tourist Visa valid for continuous stay of up to 180 days do NOT need to register with the FRRO unless their continuous stay exceeds 180 days or an explicit endorsement is stamped on their visa. All foreign nationals must ensure their hotel submits a 'Form C' on check-in. If you change address or overstay due to medical emergency, you must apply online on the e-FRRO portal within 14 days.",
+    "sourceLabel": "Ministry of Home Affairs e-FRRO Portal",
+    "sourceUrl": "https://indianfrro.gov.in"
+  },
+  {
+    "id": "drinking-water-food-safety",
+    "category": "health",
+    "title": "Drinking Water & Avoiding Delhi Belly",
+    "keywords": ["water", "tap", "drinking", "delhi belly", "stomach", "ice", "food", "street food", "filter", "diarrhea", "bottled"],
+    "answer": "Never drink unfiltered tap water in India. Always drink bottled mineral water from reputable brands (Bisleri, Aquafina, Kinley) and check that the plastic seal is unbroken. Avoid ice cubes in roadside stalls, raw unpeeled salads, and cut fruits sitting in open air. Eat at crowded street stalls where hot food is cooked fresh before your eyes. Carry Oral Rehydration Salts (ORS) and activated charcoal or loperamide.",
+    "sourceLabel": "CDC & WHO Travelers Health Guidelines for India",
+    "sourceUrl": "https://wwwnc.cdc.gov/travel"
+  },
+  {
+    "id": "sim-card-data",
+    "category": "logistics",
+    "title": "Buying an Indian SIM Card as a Foreign Tourist",
+    "keywords": ["sim", "card", "esim", "data", "airtel", "jio", "airport", "roaming", "kyc", "passport", "internet", "activation"],
+    "answer": "You can purchase a tourist SIM card directly at international arrival halls (Airtel or Jio kiosk) at major airports. You will need your physical passport, valid Indian visa, passport photo, and your hotel address in India. Verification takes 2 to 4 hours, after which you dial 59059 to tele-verify. Alternatively, buy an international e-SIM (Airalo, Nomad) before flying, but note that Indian UPI apps generally require a local Indian (+91) phone number.",
+    "sourceLabel": "Department of Telecommunications (DoT) Guidelines",
+    "sourceUrl": "https://dot.gov.in"
+  },
+  {
+    "id": "fake-train-office-scam",
+    "category": "scams",
+    "title": "The Fake New Delhi Railway Station Tourist Bureau Scam",
+    "keywords": ["train", "railway", "station", "ticket", "office", "bureau", "irctc", "closed", "connaught place", "tout", "new delhi station"],
+    "answer": "Touts standing outside New Delhi Railway Station (Paharganj side) will tell you that the International Tourist Bureau has moved, is closed, or that all trains are cancelled due to track repair. They will lead you to a private travel agency in Connaught Place that charges thousands of dollars for fake private car packages. The REAL International Tourist Bureau is located on the 1st Floor of New Delhi Railway Station. Official train bookings are only done on irctc.co.in.",
+    "sourceLabel": "Northern Railway & IRCTC Tourist Advisory",
+    "sourceUrl": "https://www.irctc.co.in"
+  },
+  {
+    "id": "emergency-dialer-112",
+    "category": "emergency",
+    "title": "Emergency Numbers in India: Police, Ambulance & Fire",
+    "keywords": ["emergency", "police", "ambulance", "fire", "112", "help", "sos", "crime", "accident", "distress", "dialer"],
+    "answer": "112 is the single unified Emergency Response Support System (ERSS) across India, equivalent to 911 or 112 in Europe. Dialing 112 connects you to Police, Ambulance, and Fire services with English-speaking dispatchers. For specific tourist police inquiries, you can also dial 1363 (Incredible India Tourist Helpline, available 24/7 in 12 languages including English, German, French, and Spanish).",
+    "sourceLabel": "Emergency Response Support System (ERSS) Ministry of Home Affairs",
+    "sourceUrl": "https://112.gov.in"
+  }
+]

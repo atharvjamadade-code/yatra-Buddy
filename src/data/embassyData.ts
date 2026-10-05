@@ -1,0 +1,217 @@
+import { CountryOrigin } from '../types';
+
+export const COUNTRIES_LIST: CountryOrigin[] = [
+  {
+    code: 'IN',
+    name: 'India (Domestic Yatri)',
+    flag: '🇮🇳',
+    isDomestic: true,
+    embassyName: 'National Disaster Management Authority (NDMA) & Inter-State Yatri Cell',
+    missionType: 'Resident Commissioner',
+    emergencyPhone24_7: '1078',
+    standardPhone: '011-26701728',
+    address: 'NDMA Bhawan, A-1, Safdarjung Enclave, New Delhi - 110029',
+    email: 'controlroom@ndma.gov.in',
+    specialAdvice: 'For domestic yatris from other Indian states (Maharashtra, Gujarat, Karnataka, Bengal, etc.), state resident commissioners in New Delhi coordinate fast airlifting and family tracing with Uttarakhand/J&K state administration.'
+  },
+  {
+    code: 'US',
+    name: 'United States',
+    flag: '🇺🇸',
+    isDomestic: false,
+    embassyName: 'Embassy of the United States of America',
+    missionType: 'Embassy',
+    emergencyPhone24_7: '+91 11 2419 8000',
+    standardPhone: '+91 11 2419 8000',
+    address: 'Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'ACSND@state.gov',
+    specialAdvice: 'For American citizens stranded, injured, or missing on Himalayan pilgrimage routes, the American Citizen Services (ACS) duty officer is available 24/7 to coordinate with Indian search & rescue forces and assist with emergency passport replacement.'
+  },
+  {
+    code: 'GB',
+    name: 'United Kingdom',
+    flag: '🇬🇧',
+    isDomestic: false,
+    embassyName: 'British High Commission',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 11 2419 2100',
+    standardPhone: '+91 11 2419 2100',
+    address: 'Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'consular.india@fcdo.gov.uk',
+    specialAdvice: 'British nationals requiring urgent consular assistance or medical repatriation from remote Himalayan areas can reach the 24/7 consular operations team in New Delhi.'
+  },
+  {
+    code: 'CA',
+    name: 'Canada',
+    flag: '🇨🇦',
+    isDomestic: false,
+    embassyName: 'High Commission of Canada',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 11 4178 2000',
+    standardPhone: '+1 613 996 8885',
+    address: '7/8 Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'delhi.consular@international.gc.ca',
+    specialAdvice: 'Canadians in distress can dial New Delhi consular services or call the Emergency Watch and Response Centre in Ottawa collect at +1 613 996 8885.'
+  },
+  {
+    code: 'NP',
+    name: 'Nepal',
+    flag: '🇳🇵',
+    isDomestic: false,
+    embassyName: 'Embassy of Nepal',
+    missionType: 'Embassy',
+    emergencyPhone24_7: '+91 95995 99401',
+    standardPhone: '+91 11 2347 6200',
+    address: 'Barakhamba Road, New Delhi - 110001',
+    email: 'eonnewdelhi@mofa.gov.np',
+    specialAdvice: 'Nepali pilgrims visiting Char Dham or Amarnath can access the Embassy emergency mobile line 24/7 for cross-border emergency repatriation, language translation, and hospital coordination.'
+  },
+  {
+    code: 'AU',
+    name: 'Australia',
+    flag: '🇦🇺',
+    isDomestic: false,
+    embassyName: 'Australian High Commission',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 11 4139 9900',
+    standardPhone: '+61 2 6261 3305',
+    address: '1/50G Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'consular.newdelhi@dfat.gov.au',
+    specialAdvice: 'Australian citizens or permanent residents can call the 24-hour Consular Emergency Centre (CEC) in Canberra at +61 2 6261 3305 or the New Delhi emergency line.'
+  },
+  {
+    code: 'MU',
+    name: 'Mauritius',
+    flag: '🇲🇺',
+    isDomestic: false,
+    embassyName: 'High Commission of the Republic of Mauritius',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 98110 54332',
+    standardPhone: '+91 11 2410 2161',
+    address: 'EP-41, Jesus & Mary Marg, Chanakyapuri, New Delhi - 110021',
+    email: 'delhihc@govmu.org',
+    specialAdvice: 'Mauritian nationals visiting the holy shrines can contact the High Commission duty officer for emergency mountain rescue coordination.'
+  },
+  {
+    code: 'SG',
+    name: 'Singapore',
+    flag: '🇸🇬',
+    isDomestic: false,
+    embassyName: 'High Commission of the Republic of Singapore',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 98102 03595',
+    standardPhone: '+91 11 4601 5888',
+    address: 'E-6 Chandragupta Marg, Chanakyapuri, New Delhi - 110021',
+    email: 'singhc_del@mfa.sg',
+    specialAdvice: 'Singaporeans requiring urgent consular assistance during trekking can reach the 24-hour High Commission Duty Officer mobile at +91 98102 03595.'
+  },
+  {
+    code: 'DE',
+    name: 'Germany',
+    flag: '🇩🇪',
+    isDomestic: false,
+    embassyName: 'Embassy of the Federal Republic of Germany',
+    missionType: 'Embassy',
+    emergencyPhone24_7: '+91 98100 04882',
+    standardPhone: '+91 11 4419 9199',
+    address: 'No. 6/50G Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'info@new-delhi.diplo.de',
+    specialAdvice: 'German citizens facing life-threatening emergencies or severe altitude sickness in India can reach the 24-hour German on-call emergency officer.'
+  },
+  {
+    code: 'FR',
+    name: 'France',
+    flag: '🇫🇷',
+    isDomestic: false,
+    embassyName: 'Embassy of France in India',
+    missionType: 'Embassy',
+    emergencyPhone24_7: '+91 11 4319 6100',
+    standardPhone: '+91 11 4319 6100',
+    address: '2/50E Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'admin-francais.new-delhi-amba@diplomatie.gouv.fr',
+    specialAdvice: 'French citizens can contact the 24/7 consular permanence desk for mountain evacuation and travel document crises.'
+  },
+  {
+    code: 'MY',
+    name: 'Malaysia',
+    flag: '🇲🇾',
+    isDomestic: false,
+    embassyName: 'High Commission of Malaysia',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 98181 18034',
+    standardPhone: '+91 11 2415 9300',
+    address: '50-M Satya Marg, Chanakyapuri, New Delhi - 110021',
+    email: 'mwdelhi@kln.gov.my',
+    specialAdvice: 'Malaysian yatris can contact the High Commission duty officer on mobile for urgent medical relief and consular protection.'
+  },
+  {
+    code: 'AE',
+    name: 'United Arab Emirates',
+    flag: '🇦🇪',
+    isDomestic: false,
+    embassyName: 'Embassy of the United Arab Emirates',
+    missionType: 'Embassy',
+    emergencyPhone24_7: '+91 99990 00045',
+    standardPhone: '+91 11 2611 1111',
+    address: '12 Chandragupta Marg, Chanakyapuri, New Delhi - 110021',
+    email: 'NewDelhiEMB@mofaic.gov.ae',
+    specialAdvice: 'UAE citizens visiting northern pilgrimage circuits can contact the 24/7 Emergency Line for diplomatic and emergency medical assistance.'
+  },
+  {
+    code: 'LK',
+    name: 'Sri Lanka',
+    flag: '🇱🇰',
+    isDomestic: false,
+    embassyName: 'High Commission of Sri Lanka',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 98114 44346',
+    standardPhone: '+91 11 2301 0201',
+    address: '27 Kautilya Marg, Chanakyapuri, New Delhi - 110021',
+    email: 'slhc.newdelhi@mfa.gov.lk',
+    specialAdvice: 'Sri Lankan pilgrims visiting holy sites in Varanasi, Uttarakhand, or J&K can access 24/7 consular crisis support.'
+  },
+  {
+    code: 'NL',
+    name: 'Netherlands',
+    flag: '🇳🇱',
+    isDomestic: false,
+    embassyName: 'Embassy of the Kingdom of the Netherlands',
+    missionType: 'Embassy',
+    emergencyPhone24_7: '+91 11 2419 7600',
+    standardPhone: '+31 247 247 247',
+    address: '6/50F Shantipath, Chanakyapuri, New Delhi - 110021',
+    email: 'nde@minbuza.nl',
+    specialAdvice: 'Dutch citizens can contact the 24/7 Emergency Contact Centre of the Ministry of Foreign Affairs in The Hague or the New Delhi emergency line.'
+  },
+  {
+    code: 'ZA',
+    name: 'South Africa',
+    flag: '🇿🇦',
+    isDomestic: false,
+    embassyName: 'High Commission of South Africa',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 98110 56708',
+    standardPhone: '+91 11 2614 9411',
+    address: 'B-18 Vasant Marg, Vasant Vihar, New Delhi - 110057',
+    email: 'delhi.consular@dirco.gov.za',
+    specialAdvice: 'South African citizens can reach the 24-hour consular duty officer for emergency advice and evacuation assistance.'
+  },
+  {
+    code: 'NZ',
+    name: 'New Zealand',
+    flag: '🇳🇿',
+    isDomestic: false,
+    embassyName: 'New Zealand High Commission',
+    missionType: 'High Commission',
+    emergencyPhone24_7: '+91 11 4688 3170',
+    standardPhone: '+64 99 20 20 20',
+    address: 'Sir Edmund Hillary Marg, Chanakyapuri, New Delhi - 110021',
+    email: 'nzhc@airtelmail.in',
+    specialAdvice: 'New Zealand citizens can call the consular emergency line or the 24/7 Consular Emergency Centre in Wellington at +64 99 20 20 20.'
+  }
+];
+
+export function getEmbassyByCode(code: string): CountryOrigin {
+  const match = COUNTRIES_LIST.find(c => c.code.toUpperCase() === code.toUpperCase());
+  return match || COUNTRIES_LIST[0]; // defaults to Domestic India if not matched
+}
